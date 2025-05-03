@@ -84,6 +84,7 @@ h5 {
 
 img {
     width: 30%;
+    max-width: 100%;
     border-radius: 1vh;
 }
 
@@ -151,7 +152,8 @@ img {
 }
 
 .img-stack img {
-    width: 20vw;
+    max-width: 100%;
+    width: 65vw;
 }
 
 .third-content {
@@ -185,7 +187,8 @@ img {
 }
 
 .img-stack-v2 img {
-    width: 12vw;
+    max-width: 100%;
+    width: 25vw;
 }
 
 .fourth-box {
@@ -219,4 +222,69 @@ img {
 
 .crediti-link-wrapper {
     text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .first-box,
+    .second-box,
+    .third-box,
+    .fourth-box {
+        flex-direction: column;
+        margin: 2vw;
+        padding: 2vh;
+    }
+
+    img {
+        width: 80%;
+        max-width: 100%;
+    }
+
+    .img-stack img,
+    .img-stack-v2 img {
+        width: 25vw;
+        margin-bottom: 2vw;
+    }
+
+    .img-stack,
+    .img-stack-v2 {
+        padding: 2vw;
+    }
+
+    .top-bar {
+        font-size: 6vw;
+        height: auto;
+        padding: 2vh 0;
+    }
+
+    p,
+    span,
+    .third-text-content,
+    .fourth-text-content {
+        font-size: 1.2em;
+    }
+
+    h1,
+    .h1-specifico {
+        font-size: 2em;
+    }
+
+    h2,
+    .h2-specifico {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    h4,
+    h5,
+    .h5-specifico,
+    .h5-specifico-fondo {
+        font-size: 1.2em;
+    }
+
+    .fourth-text-content-a {
+        font-size: 2.5em;
+    }
 }

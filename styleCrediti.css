@@ -9,9 +9,12 @@ body {
 }
 
 .credits-section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem 1 rem;
+    text-align: center;
     background-color: #1c1c1c;
     color: #ffd24d;
-    padding: 3vw;
     overflow: hidden;
     position: relative;
     height: 100vh;
