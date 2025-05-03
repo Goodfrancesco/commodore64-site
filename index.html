@@ -15,7 +15,7 @@
         <span>IL COMMODORE 64</span>
     </div>
     <div class="first-box">
-        <img src=".\Images\commodore64.jpg" alt="Immagine del Commodore 64" />
+        <img class="img-border" src=".\Images\commodore64.jpg" alt="Immagine del Commodore 64" />
         <div>
             <h1>INTRODUZIONE AL COMMODORE 64</h1>
             <p>
@@ -95,133 +95,157 @@
             </p>
         </div>
         <div class="img-stack">
-            <img src=".\Images\Vic20.png" />
-            <h5>
-                VIC-20
-            </h5>
-            <img src=".\Images\Commodore-64-1.png" />
-            <h5>
-                COMMODORE-64
-            </h5>
-            <img src=".\Images\Amiga-500.png" />
-            <h5>
-                AMIGA-1000
-            </h5>
+            <div class="image-caption">
+                <img src=".\Images\Vic20.png" />
+                <h5>
+                    VIC-20
+                </h5>
+            </div>
+
+            <div class="image-caption">
+                <img src=".\Images\Commodore-64-1.png" />
+                <h5>
+                    COMMODORE-64
+                </h5>
+            </div>
+
+            <div class="image-caption">
+                <img src=".\Images\Amiga-500.png" />
+                <h5>
+                    AMIGA-1000
+                </h5>
+            </div>
         </div>
     </div>
 
     <div class="third-box">
         <div>
-            <a class="h1-specifico">DESIGN, FUNZIONALITA` E SPECIFICHE<a>
+            <a class="h1-specifico">DESIGN, FUNZIONALITA` E SPECIFICHE</a>
 
-                    <h2>IL DESIGN</h2>
-                    <p>
-                        Il Commodore 64 era progettato con i suoi <strong>componenti elettronici integrati nella
-                            tastiera</strong>, un design
-                        compatto che lo rendeva facile da usare.
-                    </p>
+            <h2>IL DESIGN</h2>
+            <p>
+                Il Commodore 64 era progettato con i suoi <strong>componenti elettronici integrati nella
+                    tastiera</strong>, un design
+                compatto che lo rendeva facile da usare.
+            </p>
 
-                    <h2>FUNZIONALITA`</h2>
-                    <p>
-                        Il computer disponeva di diverse porte per collegare
-                        periferiche come <strong>joystick</strong>, <strong>unità floppy disk</strong> e
-                        <strong>cassette</strong> (le cosiddette datasettes), mentre l’output
-                        visivo era fornito tramite un <strong>televisore</strong>, simile alle console di gioco
-                        dell’epoca come
-                        l'<strong>Atari</strong>.
-                    </p>
+            <h2>FUNZIONALITA`</h2>
+            <p>
+                Il computer disponeva di diverse porte per collegare
+                periferiche come <strong>joystick</strong>, <strong>unità floppy disk</strong> e
+                <strong>cassette</strong> (le cosiddette datasettes), mentre l’output
+                visivo era fornito tramite un <strong>televisore</strong>, simile alle console di gioco
+                dell’epoca come
+                l'<strong>Atari</strong>.
+            </p>
 
-                    <span class="h2-specifico">SPECIFICHE TECNICHE</span>
-                    <br>
+            <span class="h2-specifico">SPECIFICHE TECNICHE</span>
+            <br>
 
-                    <h4>Processore (CPU)</h4>
-                    <br>
-                    <span class="third-text-content">
-                        → <strong>MOS Technology 6510</strong>.
-                        <br>
-                        → <strong>Frequenza di clock</strong>: 0,985 MHz (PAL) / 1,023 MHz (NTSC).
-                        <br>
-                        → <strong>Include un registratore I/O integrato per il controllo della memoria</strong>.
-                    </span>
+            <h4>Processore (CPU)</h4>
+            <br>
+            <span class="third-text-content">
+                → <strong>MOS Technology 6510</strong>.
+                <br>
+                → <strong>Frequenza di clock</strong>: 0,985 MHz (PAL) / 1,023 MHz (NTSC).
+                <br>
+                → <strong>Include un registratore I/O integrato per il controllo della memoria</strong>.
+            </span>
 
-                    <br>
-                    <h4>Memoria (RAM/ROM)</h4>
-                    <br>
-                    <h5>RAM:</h5>
-                    <br>
-                    <span class="third-text-content">
-                        → <strong>64 KB di DRAM</strong>: come memoria principale.<br>
-                        → <strong>0.5 KB di SRAM</strong>: dedicati alla memoria dei colori ($D800–$DBFF).
-                    </span>
+            <br>
+            <h4>Memoria (RAM/ROM)</h4>
+            <br>
+            <h5>RAM:</h5>
+            <br>
+            <span class="third-text-content">
+                → <strong>64 KB di DRAM</strong>: come memoria principale.<br>
+                → <strong>0.5 KB di SRAM</strong>: dedicati alla memoria dei colori ($D800–$DBFF).
+            </span>
 
-                    <br>
-                    <h5>ROM:</h5>
-                    <br>
-                    <span class="third-text-content">
-                        → <strong>8 KB BASIC V2</strong>: ($A000–$BFFF).<br>
-                        → <strong>8 KB Kernal</strong>: usato per la gestione del sistema operativo ($E000–$FFFF).<br>
-                        → <strong>4 KB Character ROM</strong>: usato per set di caratteri grafici ($D000–$DFFF).
-                    </span>
+            <br>
+            <h5>ROM:</h5>
+            <br>
+            <span class="third-text-content">
+                → <strong>8 KB BASIC V2</strong>: ($A000–$BFFF).<br>
+                → <strong>8 KB Kernal</strong>: usato per la gestione del sistema operativo ($E000–$FFFF).<br>
+                → <strong>4 KB Character ROM</strong>: usato per set di caratteri grafici ($D000–$DFFF).
+            </span>
 
-                    <br>
-                    <h4>Grafica (VIC-II)</h4>
-                    <br>
-                    <span class="third-text-content">
-                        → <strong>Chip grafico</strong>: MOS Technology VIC-II ($D000–$D3FF).<br>
-                        → <strong>Risoluzione massima</strong>: 320 x 200 pixel.<br>
-                        → <strong>Colore</strong>: 16 colori disponibili.<br>
-                        → <strong>Sprite</strong>: supporto per fino a 8 sprite hardware.
-                    </span>
+            <br>
+            <h4>Grafica (VIC-II)</h4>
+            <br>
+            <span class="third-text-content">
+                → <strong>Chip grafico</strong>: MOS Technology VIC-II ($D000–$D3FF).<br>
+                → <strong>Risoluzione massima</strong>: 320 x 200 pixel.<br>
+                → <strong>Colore</strong>: 16 colori disponibili.<br>
+                → <strong>Sprite</strong>: supporto per fino a 8 sprite hardware.
+            </span>
 
-                    <br>
-                    <h4>Audio (SID)</h4>
-                    <br>
-                    <span class="third-text-content">
-                        → <strong>Chip audio</strong>: MOS Technology SID ($D400–$D7FF).<br>
-                        → <strong>Canali</strong>: 3 indipendenti, con supporto a modulazione ADSR e suoni PWM.<br>
-                        → <strong>Audio di alta qualità, utilizzato sia per videogiochi che per composizioni
-                            musicali</strong>.
-                    </span>
+            <br>
+            <h4>Audio (SID)</h4>
+            <br>
+            <span class="third-text-content">
+                → <strong>Chip audio</strong>: MOS Technology SID ($D400–$D7FF).<br>
+                → <strong>Canali</strong>: 3 indipendenti, con supporto a modulazione ADSR e suoni PWM.<br>
+                → <strong>Audio di alta qualità, utilizzato sia per videogiochi che per composizioni
+                    musicali</strong>.
+            </span>
 
-                    <br>
-                    <h4>Interfacce e porte</h4>
-                    <br>
-                    <span class="third-text-content">
-                        → <strong>User Port</strong>: porta per espansioni o applicazioni personalizzate.<br>
-                        → <strong>Expansion Port</strong>: per cartucce di espansione e accessori.<br>
-                        → <strong>Audio/Video Connector</strong>: connessione per uscita video composito e audio.<br>
-                        → <strong>Cassette Interface</strong>: per caricare e salvare dati su cassette tramite
-                        datasette.<br>
-                        → <strong>Game Ports</strong>: 2 porte joystick compatibili con periferiche di gioco.<br>
-                        → <strong>Serial IEC Port</strong>: porta per collegare unità floppy disk e stampanti.<br>
-                        → <strong>TV Connector</strong>: uscita RF per collegamento a televisori standard.
-                    </span>
+            <br>
+            <h4>Interfacce e porte</h4>
+            <br>
+            <span class="third-text-content">
+                → <strong>User Port</strong>: porta per espansioni o applicazioni personalizzate.<br>
+                → <strong>Expansion Port</strong>: per cartucce di espansione e accessori.<br>
+                → <strong>Audio/Video Connector</strong>: connessione per uscita video composito e audio.<br>
+                → <strong>Cassette Interface</strong>: per caricare e salvare dati su cassette tramite
+                datasette.<br>
+                → <strong>Game Ports</strong>: 2 porte joystick compatibili con periferiche di gioco.<br>
+                → <strong>Serial IEC Port</strong>: porta per collegare unità floppy disk e stampanti.<br>
+                → <strong>TV Connector</strong>: uscita RF per collegamento a televisori standard.
+            </span>
 
-                    <br>
-                    <h4>Tastiera</h4>
-                    <br>
-                    <span class="third-text-content">
-                        → <strong>66 tasti</strong>: tra cui caratteri grafici e simboli programmabili.<br>
-                        → <strong>Membrana</strong>: funzionale per l'utilizzo giornaliero.
-                    </span>
+            <br>
+            <h4>Tastiera</h4>
+            <br>
+            <span class="third-text-content">
+                → <strong>66 tasti</strong>: tra cui caratteri grafici e simboli programmabili.<br>
+                → <strong>Membrana</strong>: funzionale per l'utilizzo giornaliero.
+            </span>
 
-                    <br>
-                    <h4>Alimentazione</h4>
-                    <br>
-                    <span class="third-text-content">
-                        → <strong>9V AC</strong>: per alimentazione generale.<br>
-                        → <strong>5V DC</strong>: per circuiti logici e componenti digitali.
-                    </span>
+            <br>
+            <h4>Alimentazione</h4>
+            <br>
+            <span class="third-text-content">
+                → <strong>9V AC</strong>: per alimentazione generale.<br>
+                → <strong>5V DC</strong>: per circuiti logici e componenti digitali.
+            </span>
         </div>
         <div class="img-stack-v2">
-            <img src=".\Images\joyStickCommodore64.png" />
-            <a class="h5-specifico">Il JoyStick del C64</a>
-            <img src=".\Images\diskdrive1540.png" />
-            <a class="h5-specifico">Il DiskDrive 1541</a>
-            <img src=".\Images\dataset.png" />
-            <a class="h5-specifico">Il Datasette</a>
-            <img src=".\Images\AlimentatoreCommodore64.png" />
-            <a class="h5-specifico-fondo">L'alimentatore</a>
+            <div class="image-caption">
+                <img src=".\Images\joyStickCommodore64.png" />
+                <h6 class="h7-specifico">
+                    <p>Il JoyStick del C64</p>
+                </h6>
+            </div>
+            <div class="image-caption">
+                <img src=".\Images\diskdrive1540.png" />
+                <h6 class="h7-specifico">
+                    <p>Il DiskDrive 1541</p>
+                </h6>
+            </div>
+            <div class="image-caption">
+                <img src=".\Images\dataset.png" />
+                <h6 class="h7-specifico">
+                    <p>Il Datasette</p>
+                </h6>
+            </div>
+            <div class="image-caption">
+                <img src=".\Images\AlimentatoreCommodore64.png" />
+                <h6 class="h7-specifico">
+                    <p>L'alimentatore</p>
+                </h6>
+            </div>
         </div>
     </div>
 
@@ -229,12 +253,13 @@
         <div class="fourth-text-content">
             <h3>L'EREDITA` DEL COMMODORE 64</h3>
             <br>
-            <span>
+            <span class="third-text-content">
                 Oggi il Commodore 64 è considerato una <strong>pietra miliare nella storia dell’informatica e del
                     gaming</strong>.<br> La sua
                 influenza si estende ben oltre i suoi anni di gloria, grazie alla sua comunità di fan e alla continua
                 celebrazione attraverso <strong>emulatori</strong>, eventi <strong>retrocomputing</strong> e dispositivi
                 moderni come il <strong>C64 Mini</strong>.
+                <br>
             </span>
             <br>
             <br>
@@ -243,6 +268,7 @@
                 <a class="fourth-text-content-a" href="crediti.html">CREDITI</a>
             </div>
             <br>
+            <h6 class="h6-specifico">[Premi sulla scritta "CREDITI" per visualizzare la sezione]</h6>
         </div>
     </div>
 </body>
