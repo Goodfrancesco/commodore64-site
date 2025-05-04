@@ -83,7 +83,7 @@ h5 {
 }
 
 .h6-specifico {
-    font-size: 0.6em;
+    font-size: 0.90em;
     margin-top: 0.5vw;
     margin-bottom: 0.05vw;
     font-weight: bold;
@@ -192,13 +192,13 @@ img {
     align-items: center;
     justify-items: center;
     padding-top: 15vw;
-    padding-right: 10vw;
+    padding-right: 8vw;
 }
 
 .img-stack-v2 img {
     max-width: 100%;
     width: 25vw;
-    padding-top: 2.0vw;
+    padding-top: 5.0vw;
 }
 
 .fourth-box {
@@ -218,9 +218,9 @@ img {
     text-align: left;
 }
 
-.fourth-text-content-a {
+.fourth-text-content-crediti {
     font-family: 'Russo One';
-    font-size: 3.8em;
+    font-size: 3.8em; 
     font-weight: bold;
     color: #734d26;
     margin-top: 1.5vw;
@@ -231,6 +231,11 @@ img {
 
 .crediti-link-wrapper {
     text-align: center;
+}
+
+.audio-button {
+    align-items: center;
+    width: 5vw;
 }
 
 @media screen and (max-width: 1500px) {
@@ -244,7 +249,11 @@ img {
         letter-spacing: 0.2rem; 
     }
 
-    h1,
+    h1 {
+        font-size: 2.2em;
+        text-align: center;
+    }
+
     .h1-specifico {
         font-size: 2.2em;
     }
@@ -259,10 +268,13 @@ img {
     }
 
     h4,
-    h5,
     .h5-specifico,
     .h5-specifico-fondo {
         font-size: 1.7em;
+    }
+
+    h5 {
+        font-size: 0.85em;
     }
 
     .h7-specifico {
@@ -278,14 +290,20 @@ img {
         font-size: 1.4em;
     }
 
-    span,
-    .third-text-content,
-    .fourth-text-content {
+    span {
         font-size: 1.5em;
     }
 
-    .fourth-text-content-a {
-        font-size: 2.5em;
+    .fourth-text-content {
+        font-size: 1.10em;
+    }
+
+    .third-text-content {
+        font-size: 1.15em;
+    } 
+
+    .fourth-text-content-crediti {
+        font-size: 3.5em
     }
 
     .first-box,
@@ -294,6 +312,10 @@ img {
         flex-direction: column;
         margin: 2vw;
         padding: 2vh;
+    }
+
+    .second-box {
+        flex-direction: column;
     }
 
     .first-box div {
@@ -306,10 +328,6 @@ img {
         border-color: #D2691E;
         width: 100%;
         max-width: 100%;
-    }
-
-    .second-box {
-        flex-direction: column;
     }
 
     .image-caption {
@@ -331,6 +349,7 @@ img {
     .img-stack h5 {
         width: 100%;
         text-align: center;
+        font-size: 0.95em;
     }
 
     .img-stack {
