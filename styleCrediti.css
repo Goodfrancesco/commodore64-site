@@ -28,13 +28,13 @@ body {
     top: 100%;
     width: 100%;
     text-align: center;
-    animation:  scrollCredits 10s cubic-bezier(0.12, -0.04, 0.26, 0.91) forwards;
+    animation: scrollCredits 10s ease-out forwards;
 }
 
 .h2 {
     font-size: 12vw;
     margin-bottom: 2vh;
-    margin-top: 5vh;
+    margin-top: 7vh;
     text-shadow: -1vw 0vw 8vw rgb(255 255 255);
     display: inline-block;
     text-decoration: none;
@@ -58,7 +58,7 @@ body {
 
 .credits li {
     font-size: 4vw;
-    margin-top: 2vh;
+    margin-top: 4.5vh;
     text-shadow: 0vw 0vw 7vw rgb(255 255 255);
     display: inline-block;
 }
