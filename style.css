@@ -231,6 +231,8 @@ img {
 
 .crediti-link-wrapper {
     text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2.25vw;
 }
 
 .audio-button {
@@ -239,6 +241,13 @@ img {
 }
 
 @media screen and (max-width: 1500px) {
+
+    body {
+    background: linear-gradient(45deg, #ffdd99, #ffd480);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    }
+
     .top-bar {
         height: 10vw; 
         font-size: 4vw; 
@@ -249,32 +258,54 @@ img {
         letter-spacing: 0.2rem; 
     }
 
+    .second-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffefcb;
+    align-items: center;
+    border-radius: 3vh;
+    padding: 4vh;
+    margin: 3vw;
+    box-shadow: 1rem 1rem 2rem 0px rgba(0, 0, 0, 0.4);
+    }
+
     h1 {
         font-size: 2.2em;
         text-align: center;
     }
 
     .h1-specifico {
-        font-size: 2.2em;
+        font-size: 1.65em;
+        text-align: center;
+        margin-bottom: 6vw;
     }
 
-    h2,
-    .h2-specifico {
+    h2, .h2-specifico {
         font-size: 1.7em;
+        text-align: center;
+        margin-top: 0.5vw;
+        margin-bottom: 0.5vw;
     }
 
     h3 {
         font-size: 2em;
     }
 
-    h4,
-    .h5-specifico,
-    .h5-specifico-fondo {
-        font-size: 1.7em;
+    h4, .h5-specifico, .h5-specifico-fondo {
+        font-size: 1.6em;
+        margin-top: 6vw;
     }
 
     h5 {
         font-size: 0.85em;
+    }
+
+    .h6-specifico {
+    font-size: 0.60em;
+    margin-top: 0.0vw;
+    margin-bottom: 0.05vw;
+    font-weight: bold;
+    text-align: center;
     }
 
     .h7-specifico {
@@ -288,19 +319,21 @@ img {
 
     p {
         font-size: 1.4em;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
     }
 
     span {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
+
+    .third-text-content {
+        font-size: 1.2em;
+    } 
 
     .fourth-text-content {
         font-size: 1.10em;
     }
-
-    .third-text-content {
-        font-size: 1.15em;
-    } 
 
     .fourth-text-content-crediti {
         font-size: 3.5em
@@ -323,11 +356,7 @@ img {
     }
 
     .img-border {
-        border-style: solid;
-        border-width: 2px;
-        border-color: #D2691E;
         width: 100%;
-        max-width: 100%;
     }
 
     .image-caption {
@@ -381,5 +410,11 @@ img {
         min-width: 25%;
         width: 30vw;
         margin: 0;
+    }
+
+    .crediti-link-wrapper {
+    text-align: center;
+    padding-top: 2.5vw;
+    padding-bottom: 2.25vw;
     }
 }
