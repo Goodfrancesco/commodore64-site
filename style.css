@@ -131,6 +131,10 @@ img {
     padding-left: 5vw;
 }
 
+.first-box img {
+    min-width: 25%;
+}
+
 .second-box {
     display: flex;
     flex-direction: row;
