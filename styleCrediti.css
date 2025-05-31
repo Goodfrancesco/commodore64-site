@@ -80,9 +80,46 @@ span {
     }
 }
 
+/*MEDIA QUERY PER SCHERMI PICCOLI DI TABLET*/
+
+@media screen and (max-height: 850px) and (max-width: 1300px)
+{
+    .h2 {
+        font-size: 18vw;
+        margin-bottom: 1vw;
+        margin-top: 1vw;
+        text-shadow: -1vw 0vw 8vw rgb(255 255 255);
+        display: inline-block;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .credits p {
+        font-size: 7vw;
+        margin-bottom: 2vh;
+        margin-top: 0;
+        display: inline-block;
+    }
+
+    .credits ul {
+        font-size: 4vw;
+        margin-top: 0;
+        list-style: none;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .credits li {
+    font-size: 6vw;
+    margin-top: 3vh;
+    text-shadow: 0vw 0vw 7vw rgb(255 255 255);
+    display: inline-block;
+    }
+}
+
 /*MEDIA QUERY PER SCHERMI GRANDI*/
 
-@media screen and (max-width: 1500px)
+@media screen and (min-height: 851px) and (max-width: 1500px)
 {
     .h2 {
         font-size: 20vw;

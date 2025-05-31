@@ -693,12 +693,7 @@ img {
     box-shadow: 1rem 1rem 2rem 0px rgba(0, 0, 0, 0.4);
     }
 
-    h1 {
-        font-size: 3.0em;
-        text-align: center;
-    }
-
-    .h1-specifico {
+    h1, .h1-specifico {
         font-size: 3.0em;
         text-align: center;
     }
@@ -738,7 +733,7 @@ img {
     }
 
     .h7-specifico {
-        font-size: 1.5em;
+        font-size: 1.7em;
         padding-bottom: 1.5vw;
         text-align: center;
         margin: 0;
